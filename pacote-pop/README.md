@@ -1,11 +1,11 @@
-# Pacote de orquestração de POP — Gui 0.4.0
+# Pacote de orquestração de POP — Gui 0.4.1
 
 Skill para Codex com instruções, referências e controles locais em Python 3.9+. O pacote não contém dados de empresas, nem instala ferramentas externas ou modelos de IA. Não é necessário Laya para usá-lo.
 
 ## Instalação por participante
 
 1. Descompacte o pacote em local de sua escolha.
-2. No terminal, execute `./instalar.sh`. O script instala a skill principal, sete skills especializadas e nove skills `pd-*` originais em `${CODEX_HOME:-~/.codex}/skills` e não sobrescreve instalações existentes.
+2. No terminal, execute `./instalar.sh`. O script instala a skill principal, sete skills especializadas e nove skills `pd-*` originais em `${CODEX_HOME:-~/.codex}/skills`. Skills existentes são preservadas e reportadas; suas versões não são verificadas automaticamente.
 3. Reinicie o Codex se necessário e invoque `$orquestrar-pop`, indicando a pasta da empresa no Google Drive. A skill solicitará os insumos e conduzirá os gates.
 
 Cada participante precisa de acesso autorizado à pasta da empresa e das ferramentas de criação de DOCX, PDF, PPTX e BPMN. O instalador não fornece essas ferramentas; sua disponibilidade e capacidade de gerar os formatos na pasta devem ser verificadas no ambiente. Laya, se escolhido futuramente, requer instalação e avaliação independentes.

@@ -1,5 +1,9 @@
 # Versões do Gui
 
+## 0.4.1
+
+- Instalador preserva skills já existentes e continua instalando as demais; informa que as versões preservadas não foram verificadas.
+
 ## 0.4.0
 
 - Inclui nove skills `pd-*` originais separadas, sob licença MIT autorizada por João Leite.
