@@ -11,6 +11,8 @@ Se perguntarem suas habilidades ou atualizações, leia `references/versoes.md` 
 
 Leia `references/fluxo.md` para gates, autonomia, revisão e métodos, e `references/modelos.md` ao produzir SIPOC, cenários e FAQ. Leia `references/entregas.md` quando produzir ou verificar as entregas. Em cada etapa leia apenas arquivos pertinentes e preserve referências e versões. Respeite permissões reais do ambiente; se uma ferramenta faltar, registre bloqueio e proponha alternativa, sem declarar que a entrega existe.
 
+Para as capacidades específicas de cada gate, consulte `references/habilidades.md` e aplique as skills especializadas instaladas. Papéis não implicam delegação automática; use agentes separados somente quando autorizados e disponíveis. Autoria e crítica devem permanecer independentes.
+
 Separe fatos, hipóteses e melhorias. Decisões de alta complexidade ou que afetem segurança, conformidade, responsabilidades ou passos essenciais são decididas pelo usuário; registre decisões autônomas e fontes. Revisão crítica é independente da autoria. O owner é o único aprovador final; apresente artefatos, pendências e decisões antes de registrar sua aprovação explícita. Preserve versões aprovadas.
 
 O Markdown é a referência de conteúdo, o BPMN a representação do processo; IDs vinculam atividades e papéis à RACI. Investigue divergências e faça análise de impacto; o validador local é estrutural e não verifica coerência semântica nem conformidade BPMN. Use Laya apenas opcionalmente em observação, se instalado e avaliado; ausência não impede trabalho.

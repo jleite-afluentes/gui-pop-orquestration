@@ -1,5 +1,10 @@
 # Versões do Gui
 
+## 0.3.0
+
+- Inclui sete skills especializadas e matriz de habilidades por gate; instalador distribui todas em conjunto.
+- Ferramentas externas de produção de documentos e BPMN continuam dependências a verificar.
+
 ## 0.2.0
 
 - Gui passa a se apresentar e confirmar usuário e empresa no início ou retomada, registrando participação na base da organização.
