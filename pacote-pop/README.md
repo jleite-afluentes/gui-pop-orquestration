@@ -1,11 +1,11 @@
-# Pacote de orquestração de POP — Gui 0.3.0
+# Pacote de orquestração de POP — Gui 0.4.0
 
 Skill para Codex com instruções, referências e controles locais em Python 3.9+. O pacote não contém dados de empresas, nem instala ferramentas externas ou modelos de IA. Não é necessário Laya para usá-lo.
 
 ## Instalação por participante
 
 1. Descompacte o pacote em local de sua escolha.
-2. No terminal, execute `./instalar.sh`. O script instala a skill principal e sete skills especializadas em `${CODEX_HOME:-~/.codex}/skills` e não sobrescreve instalações existentes.
+2. No terminal, execute `./instalar.sh`. O script instala a skill principal, sete skills especializadas e nove skills `pd-*` originais em `${CODEX_HOME:-~/.codex}/skills` e não sobrescreve instalações existentes.
 3. Reinicie o Codex se necessário e invoque `$orquestrar-pop`, indicando a pasta da empresa no Google Drive. A skill solicitará os insumos e conduzirá os gates.
 
 Cada participante precisa de acesso autorizado à pasta da empresa e das ferramentas de criação de DOCX, PDF, PPTX e BPMN. O instalador não fornece essas ferramentas; sua disponibilidade e capacidade de gerar os formatos na pasta devem ser verificadas no ambiente. Laya, se escolhido futuramente, requer instalação e avaliação independentes.
@@ -20,4 +20,6 @@ O arquivo `ARQUITETURA-E-CRITERIOS.md` acompanha o pacote como referência de pr
 
 ## Habilidades por gate
 
-A matriz em `skills/orquestrar-pop/references/habilidades.md` relaciona investigação, modelagem, melhoria, redação, revisão, entregas e gestão do conhecimento aos gates. As sete skills especializadas acompanham o pacote; os mecanismos externos de produção de DOCX, PDF, PPTX e BPMN não estão incluídos.
+A matriz em `skills/orquestrar-pop/references/habilidades.md` relaciona investigação, modelagem, melhoria, redação, revisão, entregas e gestão do conhecimento aos gates. As sete skills especializadas e nove skills `pd-*` acompanham o pacote; os mecanismos externos de produção de DOCX, PDF, PPTX e BPMN não estão incluídos.
+
+As skills originais `pd-*` estão incluídas e são priorizadas quando apropriado. As skills de plugins não estão incluídas. Seus contratos, dependências e limitações estão em `TERCEIROS-E-DEPENDENCIAS.md`. A licença MIT aplica-se às contribuições próprias de João Leite; terceiros conservam suas condições.

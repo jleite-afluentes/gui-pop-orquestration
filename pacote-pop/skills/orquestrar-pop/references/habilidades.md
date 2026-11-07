@@ -1,6 +1,16 @@
 # Habilidades por gate
 
-As skills `gui-*` são incluídas neste pacote e instaladas junto com `orquestrar-pop`. Ao executá-las, leia o SKILL.md da skill correspondente no diretório de skills instalado. A skill principal coordena e o owner aprova.
+As skills `gui-*` são incluídas neste pacote e instaladas junto com `orquestrar-pop`. Para cada gate, priorize as skills originais disponíveis e autorizadas abaixo, lendo seus SKILL.md e dependências; use as `gui-*` para os contratos específicos de POP ou como instruções locais de apoio quando a skill original não estiver disponível. As skills `gui-*` não substituem as originais e não provam equivalência funcional. A skill principal coordena e o owner aprova.
+
+| Gate | Skills originais a localizar e verificar |
+|---|---|
+| Preparação e investigação | `pd-research`, `pd-methods`, `pd-ux-service`, `pd-grilling` e `grilling` |
+| Modelagem e melhoria | `pd-business-analysis`, `pd-methods`, `pd-ux-service` |
+| Redação e crítica | `pd-documentation`, `pd-quality-review`, `pd-grilling` |
+| Produção e verificação | `pd-presentations`, `documents:documents`, `pdf:pdf`, `presentations:Presentations` |
+| Aprovação e registro | `pd-quality-review`, `pd-business-analysis` |
+
+As cópias de desenvolvimento `pd-*` podem depender de `pd-orchestrator`, seu CLI, agentes e contexto de projeto; verificar o contrato e não afirmar integração funcional até testá-la. Não altere essas skills para omitir dependências. A disponibilidade é específica de cada ambiente.
 
 | Gate | Skills incluídas | Responsabilidade | Dependências externas |
 |---|---|---|---|

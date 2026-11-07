@@ -1,0 +1,77 @@
+{
+  "data": "2026-11-07",
+  "skills": [
+    {
+      "skill": "pd-methods",
+      "origem": "cópia local fornecida por João Leite",
+      "versao_origem": "0.4.0",
+      "licenca": "MIT — João Leite; avisos de terceiros preservados quando aplicáveis",
+      "sha256_skill_md": "e4bbb725fce2f4236e3bc2eb305b1bf634856a8396c2fc3d73b04f91e8810988",
+      "observacao": ""
+    },
+    {
+      "skill": "pd-ux-service",
+      "origem": "cópia local fornecida por João Leite",
+      "versao_origem": "0.4.0",
+      "licenca": "MIT — João Leite; avisos de terceiros preservados quando aplicáveis",
+      "sha256_skill_md": "578d9bbde23952b579457b169ed465faebfae474883940d458163f72aa904922",
+      "observacao": ""
+    },
+    {
+      "skill": "pd-business-analysis",
+      "origem": "cópia local fornecida por João Leite",
+      "versao_origem": "0.4.0",
+      "licenca": "MIT — João Leite; avisos de terceiros preservados quando aplicáveis",
+      "sha256_skill_md": "270fdd3fffc9fdca2cf551d0254c78325be5ac4072681af578e9eb6c48e654c3",
+      "observacao": ""
+    },
+    {
+      "skill": "pd-grilling",
+      "origem": "cópia local fornecida por João Leite",
+      "versao_origem": "0.4.0",
+      "licenca": "MIT — João Leite; avisos de terceiros preservados quando aplicáveis",
+      "sha256_skill_md": "9b03033f97f9a67c9d3f1723b0cb68ff897271cfa0232b4a9a5c940e468b1116",
+      "observacao": ""
+    },
+    {
+      "skill": "pd-documentation",
+      "origem": "cópia local fornecida por João Leite",
+      "versao_origem": "0.4.0",
+      "licenca": "MIT — João Leite; avisos de terceiros preservados quando aplicáveis",
+      "sha256_skill_md": "197c62ce73d92f4df93f0db8ad0c3f99afdd7e0ebed81351705d4342607bb85d",
+      "observacao": ""
+    },
+    {
+      "skill": "pd-quality-review",
+      "origem": "cópia local fornecida por João Leite",
+      "versao_origem": "0.4.0",
+      "licenca": "MIT — João Leite; avisos de terceiros preservados quando aplicáveis",
+      "sha256_skill_md": "7695da6b79fe94044d82a9e4bd32830afd0b3783a39c1f1ec5e98f73e00641c4",
+      "observacao": ""
+    },
+    {
+      "skill": "pd-research",
+      "origem": "cópia local fornecida por João Leite",
+      "versao_origem": "0.4.0",
+      "licenca": "MIT — João Leite; avisos de terceiros preservados quando aplicáveis",
+      "sha256_skill_md": "b93954c5c4d5114833c689919270d132b671b95cd7ca8408f315a255aa362c62",
+      "observacao": ""
+    },
+    {
+      "skill": "pd-presentations",
+      "origem": "cópia local fornecida por João Leite",
+      "versao_origem": "0.4.0",
+      "licenca": "MIT — João Leite; avisos de terceiros preservados quando aplicáveis",
+      "sha256_skill_md": "40bd6e1a9f173ffabd72ac93af274afe8a1aeed60d4b67dfaa16f39d2213d5f5",
+      "observacao": ""
+    },
+    {
+      "skill": "pd-orchestrator",
+      "origem": "cópia local fornecida por João Leite",
+      "versao_origem": "0.4.0",
+      "licenca": "MIT — João Leite; avisos de terceiros preservados quando aplicáveis",
+      "sha256_skill_md": "6fb899f0dadbb8ff563eb93409ab5c50ed4b447943b5b72651ad7d667149c9dd",
+      "observacao": "pd-orchestrator não inclui configuração local de runtime"
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 # Versões do Gui
 
+## 0.4.0
+
+- Inclui nove skills `pd-*` originais separadas, sob licença MIT autorizada por João Leite.
+- Preserva avisos de terceiros e documenta dependências externas e configuração local excluída.
+
 ## 0.3.0
 
 - Inclui sete skills especializadas e matriz de habilidades por gate; instalador distribui todas em conjunto.

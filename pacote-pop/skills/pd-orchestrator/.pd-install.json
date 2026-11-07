@@ -1,0 +1,19 @@
+{
+  "package_version": "0.4.0",
+  "files": {
+    "SKILL.md": "6fb899f0dadbb8ff563eb93409ab5c50ed4b447943b5b72651ad7d667149c9dd",
+    "agents/openai.yaml": "3f6ed86be45573940ade399f0dec5399c25cba1b54aee54a44959ffb835f6186",
+    "local-runtime.json": "068ce6d8b2b28757cb7731657ebda09bc04d01d28b4e924ae2cc03be4c3e280e",
+    "references/agents.json": "d7ec8add77664b765312beb4470cf7cd7f2e3f425febf3be4830d1f7b60e015e",
+    "references/cli.md": "f673bd994f791b35757f08f9898a0cd23ee2b396bd2ac1bb26935a6993939836",
+    "references/contracts.md": "3b1812b897e92abce6d15ab182e1f4c0079a5a6abe12855adad6c5c5a5dc2297",
+    "references/execution-policy.json": "340346389ebd872d1dbd1be06a5fc3a174e0ed5f0df25cae9ec7636b0659e753",
+    "references/gates.json": "d620a369fe52cca493b5a1cb4ecfb7cdc6ebce9df8c4efdb8b90f1a52e6702d9",
+    "references/routing.json": "00c117b5a0e517164df24964bcea333efa651364e3d621bce26f398df0326df8",
+    "references/templates/persona.json": "b0a1f6c1c37d2f32a15e1dd11816a544ae6899f785313b717a7af58f0795a6f4",
+    "references/templates/rfp.md": "2b9fc8ee1c6f94858efe362efdab79eb32bb7179f687b4d502745b3c57c6427f",
+    "references/templates/slide-map.json": "813cc3885c95c61b371616002e3d8a5fc75764af8dc82b121a0f4994161eea4c",
+    "scripts/laya_worker.py": "e6567762f289ca8fbe47bdee74b7c78613c637322bac2d1407087dc615b200c5",
+    "scripts/pd.py": "2b1c2e6c44448d30580d38d4edb8e36cef992f56feefecf08f2d8ad982951701"
+  }
+}

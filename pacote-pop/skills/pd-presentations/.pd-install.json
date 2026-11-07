@@ -1,0 +1,8 @@
+{
+  "package_version": "0.4.0",
+  "files": {
+    "SKILL.md": "40bd6e1a9f173ffabd72ac93af274afe8a1aeed60d4b67dfaa16f39d2213d5f5",
+    "agents/openai.yaml": "5716ab27fbe9409327347d3709d6fa224350b043047d9f74033456872c7697f2",
+    "references/delivery.md": "3e263388093dd8169e02b2d78f4283a2603b7e36205a29de8bd962f20806ed71"
+  }
+}

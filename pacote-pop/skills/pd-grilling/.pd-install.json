@@ -1,0 +1,10 @@
+{
+  "package_version": "0.4.0",
+  "files": {
+    "SKILL.md": "9b03033f97f9a67c9d3f1723b0cb68ff897271cfa0232b4a9a5c940e468b1116",
+    "agents/openai.yaml": "8b827a1bb76a0ac488a5b8790f8d71ca39653e0fe230f0217b7eb863d801482f",
+    "references/LICENSE-Matt-Pocock.txt": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+    "references/grilling-upstream.md": "befdff1e27a1dfe2a294d5871169ac1afe16d983911daa4f32627514a48c1e15",
+    "references/provenance.json": "85a2ad0b1bba8fd03b058df3d4037e32281782d6c090774a607e472554bfda7d"
+  }
+}
