@@ -1,0 +1,15 @@
+# Fluxo, métodos e decisões
+
+Gates: preparação; investigação; modelagem; validação do processo; redação e crítica; produção e verificação; aprovação. Registre saídas, versões, fontes, pendências e decisões em cada etapa; retorne a etapas anteriores quando necessário. Lacunas que afetem segurança, regras obrigatórias ou execução correta bloqueiam aprovação até resolução efetiva. O owner decide melhorias e pontos críticos e aprova o conjunto final.
+
+Solicite contexto da empresa, cultura, políticas, regras, fontes, glossário, marca, templates e processos relacionados; registre ausências. Pergunte por fatos faltantes, conflitos e responsabilidades. Descreva processo atual separadamente de melhorias. Modelo BPMN deve mostrar responsabilidades, início, fim, decisões e exceções; alinhe RACI, identificadores e conteúdo. Não presuma validade técnica ou de negócio sem verificação.
+
+Para cada novo POP, construa SIPOC proporcional com fornecedores, entradas, processo, saídas e clientes ou destinatários. Identifique fontes e lacunas; confirme a aplicação de informações previamente registradas. Use-o para delimitar interfaces e confira coerência com o BPMN. Aplique DMAIC (definir, medir, analisar, melhorar e controlar) quando um problema de desempenho ou melhoria justificar, sem impor as cinco fases a todo POP. Distinga medições e resultados reais de hipóteses. Melhorias dependem de decisão do owner.
+
+Investigue cenários normais, decisões frequentes e exceções conhecidas. Registre situação e sinais, ação, responsável, resultado esperado, fonte e vínculos com etapas. Não invente respostas operacionais. Durante a revisão, acolha solicitações de cenários adicionais, investigue evidências e atualize artefatos afetados após as decisões exigidas. Se a situação não estiver prevista, encaminhe conforme regra específica definida pelo owner; não presuma que toda atividade exige a mesma interrupção.
+
+Escolha métodos proporcionais: Design Thinking para necessidades e alternativas; Design de Serviços para jornada, interfaces e falhas; Design Robusto para variação e recuperação, com testes adequados quando aplicável; Teoria das Restrições para hipóteses de restrição do sistema com dados; Problem Solving para causas, evidências e ações. Registre limitações. Personas sintéticas não são evidência de campo.
+
+Agentes podem decidir baixa ou média complexidade com evidências suficientes; registrem ator, decisão, motivo, fonte e impacto. Escalone dúvidas ou conflitos sem evidência, decisões complexas ou críticas. Revisor deve ser independente do autor, registrar achados e tratar impedimentos. Sempre que possível verifique compreensão com público real; ausência é limitação para o owner avaliar, não exige aprovador adicional.
+
+A base usa Markdown e links, com IDs, fonte, responsável, data e estado. Relacione POPs e contexto; registre divergências e proponha correções a documentos externos ao escopo, submetendo-as ao responsável. Ao retomar, leia estado, decisões, pendências, reserva e último gate; consulte versões de origem. Registrar somente conhecimento validado como compartilhado.

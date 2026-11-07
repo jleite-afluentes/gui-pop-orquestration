@@ -1,0 +1,7 @@
+# Operação local
+
+Executar `python3 <skill>/scripts/pop.py --help`. Comandos: `init-company` cria área isolada; `init-pop` cria esqueleto sem sobrescrever; `check` valida IDs, referências declaradas e arquivos; `manifest` inventaria entregas em `entregas/` e calcula SHA-256; `verify` detecta alterações; `approve` registra declaração de aprovação do owner vinculada ao hash do manifesto; `reserve` e `release` registram coordenação local. A aprovação registrada é autodeclarada e só pode ser criada após confirmação explícita do usuário. Os comandos não substituem revisão de conteúdo, validação de BPMN, renderização ou validação de integridade concorrente.
+
+Para relações, manter `grafo.json` na raiz da empresa: `{ "nodes": [{"id": "POP-001", "file": "pops/POP-001/pop.md"}], "edges": [{"from": "POP-001", "type": "regido_por", "to": "POL-001"}] }`. `check` verifica duplicações, destinos, tipos e caminhos existentes. Adicione somente nós e relações confirmados ou indique status no registro original; o grafo pode ser incompleto.
+
+O manifesto inclui os arquivos em `entregas/`, inclusive os recursos do HTML. Coloque cópias finais do BPMN, RACI e Markdown nesta pasta antes de gerar o manifesto. Preserve manifestos e entregas aprovados em pasta de versão antes de editar. `reserve` usa criação exclusiva local; sincronização do Google Drive pode produzir reservas conflitantes. Não há bloqueio distribuído garantido. Verifique sincronização e hashes antes de consolidar.
